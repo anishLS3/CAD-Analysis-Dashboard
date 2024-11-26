@@ -1,0 +1,40 @@
+# params.yaml
+setting:
+  label: 255
+  binWidth: 25
+  interpolator: sitkBSpline
+  resampledPixelSpacing: null
+
+imageType:
+  Original: {}
+
+featureClass:
+  firstorder:
+    - Entropy
+    - Energy
+    - Uniformity
+    - MeanAbsoluteDeviation
+    - Skewness
+    - Kurtosis
+  glcm:
+    - Contrast
+    - Idm
+    - Correlation
+    - ClusterProminence
+    - ClusterShade
+  gldm:
+    - GrayLevelNonUniformity
+    - DependenceNonUniformity
+    - DependenceVariance
+    - LowGrayLevelEmphasis
+    - HighGrayLevelEmphasis
+  glszm:
+    - ZoneEntropy
+    - LargeAreaEmphasis
+    - SmallAreaEmphasis
+    - GrayLevelVariance
+    - SizeZoneNonUniformity
+  glrlm:
+    - RunLengthNonUniformity
+    - ShortRunEmphasis
+    - LongRunEmphasis
