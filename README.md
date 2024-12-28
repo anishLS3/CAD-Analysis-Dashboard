@@ -28,12 +28,11 @@ The **CAD Analysis Dashboard** is an interactive platform designed to enhance th
 
 ## Technologies Used  
 
-### Backend  
-- **Flask**: For hosting API services.  
+### Backend   
 - **Python**: Core logic for radiomic feature analysis and data handling.  
 
 ### Frontend  
-- **Dash**: For creating an interactive web-based dashboard.  
+- **Streamlit**: For creating an interactive web-based dashboard.  
 - **Plotly**: For advanced and interactive visualizations.  
 
 ### Data Processing  
